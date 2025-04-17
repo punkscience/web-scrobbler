@@ -18,6 +18,12 @@ export interface ConnectorMeta {
 
 export default <ConnectorMeta[]>[
 	{
+		label: "Astiga",
+		matches: ['*://play.asti.ga/*'],
+		js: 'astiga.js',
+		id: 'astiga',
+	},
+	{
 		label: 'YouTube',
 		matches: ['*://www.youtube.com/*', '*://m.youtube.com/*'],
 		js: 'youtube.js',
